@@ -1,4 +1,4 @@
-class grafanadash::dev() {
+class grafanadash {
    # hack; there is probably a module for this
    exec { '/usr/sbin/setenforce 0': }
 
